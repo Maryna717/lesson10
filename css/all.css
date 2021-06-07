@@ -1,0 +1,293 @@
+.wrapper{
+	max-width: 1285px;
+	margin: 0 auto;
+}
+header{
+	overflow: hidden;
+}
+header a{
+	text-decoration: none;
+}
+header a:hover{
+	text-decoration: none;
+}
+header ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+header li{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.promo h1{
+	line-height: 63px;
+}
+.logo_wrap{
+	float: left;
+	overflow: hidden;
+	width: 216px;
+	padding-top: 41px;
+	padding-bottom: 34px; 
+}
+.menu_wrap{
+	float: right;
+}
+.top_wrap{
+	text-align: right;
+	padding-top: 5px;
+	font-size: 14px;
+	color: black;
+	margin-bottom: 35px;
+}
+.top_wrap a{
+	color: black;
+}
+.top_wrap a.btn{
+	color: white;
+}
+.top_wrap li{
+	display: inline-block;
+	margin-left: 27px;
+}
+.bottom_wrap{
+	color: #252B42;
+	font-weight: bold;
+	font-size: 17px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	margin-top: 44px;
+}
+.bottom_wrap>ul>li{
+	float: left;
+	margin-left: 45px;
+}
+.bottom_wrap a{
+	color: #252B42;
+}
+.btn{
+	background-color: #FF3339;
+	color: white;
+	padding: 10px 23px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 1;
+	font-weight: bold;
+}
+.btn:hover{
+	color: white;
+	text-decoration: none;
+}
+.wrap_menu{
+	display: none;
+}
+.bottom_wrap li{
+	position: relative;
+}
+.icon_but{
+	position: absolute;
+	right: 9px;
+	top:1px;
+    border: none;
+    height: 28px;
+    width: 18px;
+	background-image:  url(../img/Vector.svg);
+	background-repeat: no-repeat; 
+	background-position: right;	
+	background-color: white;
+}
+.search_input{
+	border: 1px solid #D3D3D3;
+	margin-bottom: 4px; 
+	border-radius: 7px;
+	width: 182px;
+}
+.container{
+	padding:  0 30px;
+}
+.information{
+	margin: 160px 0 120px 0;
+}
+.information p{
+	font-size: 15px;
+	line-height: 28px;
+}
+.red {
+	color: red;
+}
+.italic{
+	font-style: italic;
+}
+.form_wrap_1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.forms input[type=text],
+.forms input[type=email],
+.forms input[type=phone],
+.forms textarea {
+	color: #B0B0B0;
+	font: 1em sans-serif;
+	box-sizing: border-box;
+	border: 2px solid #E8E8E8;
+	border-radius: 10px;
+	font-size: 15px;
+	padding: 20px 15px;
+	width: 357px;
+	font-weight: 400;
+}
+.form_wrap_1>div{
+	margin-right:30px ;
+}
+.yes_no{
+	width: 740px;
+	
+}
+.yes_no p{
+	display: inline-block;
+}
+.form_wrap_2 button{
+	background-color: #FF3339;
+	color: white;
+	padding: 25px 85px;
+	border-radius: 5px;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 1;
+	font-weight: bold;
+	border: none;
+	font-size: 18px;
+}
+.form_wrap_2 button:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+footer{
+	background-color: #181918;
+	padding-top: 100px;
+	padding-bottom: 41px;
+	position: relative;
+}
+footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+footer li{
+	text-align: left;
+}
+footer a{
+	text-decoration: none;
+	list-style-type: none;
+	color: white;
+	font-size: 15px;
+	line-height: 44px;
+	font-weight :600;
+}
+footer a:hover{
+	text-decoration: none;
+	color: white;
+}
+.top_foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+footer h3{
+	color: white;
+	list-style-type: none;
+	font-size: 16px;
+}
+footer li{
+	font-weight: 600;
+}
+footer p{
+	font-size: 12px;
+	line-height: 18px;
+	color: white;
+}
+.customer{
+	font-size: 15px;
+	line-height: 34px;
+	font-family: regular;
+	padding-left: 18px;
+}
+.fa-twitter{
+	color: white;
+	size: 5px;
+	margin-right: 5px; 
+}
+.fa-linkedin{
+	color: white;
+	size: 5px;
+}
+.icon{
+	display: inline-block;
+	width: 76px;
+	height: 76px;
+	background-repeat: no-repeat;
+}
+.left{
+	background-image: url(../img/mgat.svg);
+}
+.right{
+	background-image: url(../img/mga.svg);
+}
+.bot_foot_image{
+	width: 385px;
+	display: inline-block;
+}
+.bot_foot{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	margin-top: 70px; 
+}
+.bot_foot li{
+	margin-left: 10px; 
+	display: inline; 
+}
+.arrow-up{
+	position: absolute;
+	right: 65px;
+    top: -27px;
+    width: 60px;
+    height: 60px;
+    background-image: url(../img/Fram.svg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fa-chevron-up{
+	color: white;		
+}
+.btn-red{
+	background-color: #FF3339;
+	color: white;
+	padding: 22px 74px;
+	border-radius: 7px;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 1;
+	font-weight: bold;
+	text-decoration:none;
+}
+.btn-red:hover{
+	text-decoration:none ;
+	color: white;
+}
+.fa, .fas{
+	font-size: 37px;
+}
