@@ -6,7 +6,7 @@
 	<link href="fonts/fontawesome/css/all.css" rel="stylesheet">
 </head>
 <body>
-<!-- <img src="Home.jpg" style="position: absolute; opacity: 0.3; top: 0; left: -35px; width: 1440px;"> -->
+<!-- <img src="photo2021.jpg" style="position: absolute; opacity: 0.3; top: 0; left: -35px; width: 1440px; -->
 	<div class="wrapper">
 		<div class="container">
 			<header>
@@ -45,18 +45,15 @@
 			<div class="container">
 				<h2>Register</h2>
 				<p>Our resource library is a subscription based service available to existing Standards, ProductWriter and imarket subscribers.</p>
-				<h4>Existing organisations - New user</h4>
+				<h5>Existing organisations - New user</h5>
 				<p>If your organisation is listed below, but you do not have a login, please fill out the form below (product choice is not required)</p>
-				<h4>Existing organisations - New licence</h4>
-				<p></p>
-
-				<h4>New organisations</h4>
+				<h5>Existing organisations - New licence</h5>
+				<p>If your organisation is listed below, but does not currently subscribe or have a license for Polaris products and services, or if you require additional access, please fill out the form below indicating the Polaris products and/or services you are interested in.</p>
+				<h5>New organisations</h5>
 				<p>If your organisation is not listed below, please select "I am a new customer" from the Company list below and fill out the form indicating the Polaris products and/or services you are interested in.</p>
-				<h4>Contractors</h4>
-				<p>If you are a contractor and require access to undertake work on behalf of an organisation that subscribes or licenses to Polaris products and services, please ask that organisation to request access on your behalf.
- 					(Please note that we can only provide access if you are undertaking activity exclusively for a single organisation and access will be limited to the duration of that activity. 
- 					If you are undertaking activity for multiple organisations please contact us to discuss your requirements)</p>
-				<h4>Brokers</h4>
+				<h5>Contractors</h5>
+				<p>If you are a contractor and require access to undertake work on behalf of an organisation that subscribes or licenses to Polaris products and services, please ask that organisation to request access on your behalf.(Please note that we can only provide access if you are undertaking activity exclusively for a single organisation and access will be limited to the duration of that activity. If you are undertaking activity for multiple organisations please contact us to discuss your requirements)</p>
+				<h5>Brokers</h5>
 				<p>Are you a broker registering to use imarket in order to access insurer products and services? If yes, please click here and then select Register</p>
 				<div class="red italic">
 					<p> We do not accept ANY registrations from personal email addresses (e.g. Gmail, Hotmail etc.), please use your work email address when registering</p>
@@ -68,7 +65,7 @@
 		<div class="wrapper">
 			<div class="container">
 				<form method="post" action="index.html">
-					<div class="form_wrap_1">
+					<div class="form_radio">
 						<div>
 							<p><label for="name">First Name</label></p>
 							<p><input type="text" name="first_name" id="name" value="" placeholder="Jon"></p>
@@ -108,20 +105,33 @@
 						</div>
 					</div>
 				</form>
-
-
-					<div class="form_wrap_2">
-
-
-					<div>	
-				
-				<div>
-					<a href="#" class="btn">Register</a>
+				<h4>Which Polaris Products/Services are you interested in?</h4>
+				<div class="form_check">
+					<label>
+						<input type="checkbox">imarket
+					</label>
+					<label>
+						<input type="checkbox">ProductWriter (Commercial Lines)
+					</label>
+					<label>
+						<input type="checkbox">ProductWriter (Personal Lines)
+					</label>
+					<label>
+						<input type="checkbox">Standards (Commercial Lines)
+					</label>
+					<label>
+						<input type="checkbox">Standards (Personal Lines)
+					</label>		
+				</div>
+				<div class="form_text ">
+					<label for="info">Please provide more information if required:</label>
+					<textarea id="info" name="info">Type any additional requirements here</textarea>
+		  		</div>
+				<div class="form_but">
 					<button type="submit">Register</button>
 		  		</div>
-		</div>
-			</div>	
-		</div>	
+			</div>
+		</div>		
 	</section>
 	
 

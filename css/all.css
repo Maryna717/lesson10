@@ -108,11 +108,20 @@ header li{
 	padding:  0 30px;
 }
 .information{
-	margin: 160px 0 120px 0;
+	margin: 130px 0 103px 0;
+}
+.information h2{
+  margin-bottom: 50px;
+}
+.information h5{
+ margin-bottom: 10px; 
 }
 .information p{
 	font-size: 15px;
 	line-height: 28px;
+	font-weight: 400;
+	margin-top: 15px;
+	margin-bottom: 29px;  
 }
 .red {
 	color: red;
@@ -120,16 +129,23 @@ header li{
 .italic{
 	font-style: italic;
 }
-.form_wrap_1{
+.forms h4{
+	margin-bottom: 40px;
+}
+.form_radio{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin-bottom: 49px;
 }
-
+.form_radio p{
+	font-size: 15px;
+	font-weight: 400;
+}
 .forms input[type=text],
 .forms input[type=email],
 .forms input[type=phone],
-.forms textarea {
+.forms textarea{
 	color: #B0B0B0;
 	font: 1em sans-serif;
 	box-sizing: border-box;
@@ -140,20 +156,53 @@ header li{
 	width: 357px;
 	font-weight: 400;
 }
-.form_wrap_1>div{
+.form_radio>div{
 	margin-right:30px ;
 }
 .yes_no{
 	width: 740px;
-	
+	padding-top: 43px;
+	padding-left: 10px; 	
 }
 .yes_no p{
 	display: inline-block;
+	font-size: 13px;
 }
-.form_wrap_2 button{
+.form_check{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	font-size: 18px;
+	margin-bottom: 66px; 
+}
+.form_check label{
+	width: 407px;
+	padding-top: 20px; 
+}
+.form_text {
+	margin-bottom: 29px; 
+}
+.form_text label{
+	font-size: 15px;
+}
+.form_text textarea{
+  border: 1px solid #E8E8E8;
+  width: 1143px;
+  color: grey;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 25px 0px 100px 20px; 
+  margin-top: 30px; 
+}
+.form_but{
+	text-align: center;
+	margin-bottom: 225px; 
+}
+.form_but button{
 	background-color: #FF3339;
 	color: white;
-	padding: 25px 85px;
+	padding: 23px 81px;
 	border-radius: 5px;
 	text-decoration: none;
 	display: inline-block;
@@ -162,7 +211,7 @@ header li{
 	border: none;
 	font-size: 18px;
 }
-.form_wrap_2 button:hover{
+.form_but button:hover{
 	color: white;
 	text-decoration: none;
 }
