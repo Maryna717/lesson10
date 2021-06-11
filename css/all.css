@@ -81,7 +81,15 @@ header li{
 	text-decoration: none;
 }
 .wrap_menu{
+	display: inline-block;
 	display: none;
+}
+.bar{
+	width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 .bottom_wrap li{
 	position: relative;
@@ -178,10 +186,16 @@ header li{
 }
 .form_check label{
 	width: 407px;
-	padding-top: 20px; 
+	padding-top: 20px;  
+}
+.form_check input{
+	margin-right: 25px;
 }
 .form_text {
-	margin-bottom: 29px; 
+	margin-bottom: 29px;
+	display: flex;
+	flex-direction: column;
+
 }
 .form_text label{
 	font-size: 15px;

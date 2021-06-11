@@ -28,16 +28,20 @@
 	}
 	.yes_no {
     	width: 426px;
+    	padding-top: 60px; 
     }
     .form_but {
     	margin-bottom: 100px;
     }
     .form_text textarea {
-    	width: 1000px;
+    	width: 760px;
+    }
+    .form_text textarea {
+    padding: 25px 0px 65px 20px;
     }
 }
 
-
+	
 
 
 @media screen and (max-width: 980px){
@@ -63,14 +67,22 @@
 	.forms input[type=phone],
 	.forms textarea {
 		width: 270px;
-		padding: 15px 40px; 
+		padding: 15px; 
 	}
 	.form_text textarea {
-    	width: 770px;
+    	width: 888px;
     }
+    .form_text textarea {
+    	padding: 25px 0px 65px 20px;
+	}
     .form_check{
     	font-size: 15px;
     }
+}
+@media screen and (max-width: 930px){
+	.form_text textarea{
+		width: 610px;
+	}
 }
 
 
@@ -114,7 +126,7 @@
 		margin-bottom: 35px;
 	}
 	.form_text textarea{
-		width: 700px;
+		width: 560px;
 		padding: 10px 40px 50px 5px;
 	}
 	.top_foot {
@@ -160,7 +172,16 @@
 	}
 }
 
-
+@media screen and (max-width: 600px){
+	.form_text textarea{
+		width: 450px;
+	}
+}
+@media screen and (max-width: 561px){
+	.yes_no{
+		width: 67%;
+	}
+}
 
 
 @media screen and (max-width: 500px) {
@@ -174,7 +195,7 @@
 		align-content: space-around;
 	}
 	.form_text textarea{
-		width: 450px;
+		width: 364px;
 	}
 	.form_radio>div {
 		margin-right: 0px;
@@ -196,7 +217,7 @@
 }
 @media screen and (max-width: 400px) {
 	.yes_no {
-		width: 330px;
+		width: 295px;
 	}
 	.form_text textarea{
 		width: 364px;
@@ -205,5 +226,9 @@
 		width:22px;
 	}
 }
-
+@media screen and (max-width: 391px){
+	.form_text textarea{
+		width: 262px;
+	}
+}
 
